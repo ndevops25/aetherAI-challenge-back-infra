@@ -1,0 +1,95 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="600" fill="#f5f5f5" />
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#111">
+    Clean Architecture dos Microserviços
+  </text>
+  
+  <!-- Camadas da Clean Architecture -->
+  <!-- Camada 1 - Entities -->
+  <circle cx="450" cy="300" r="230" fill="#fff7e6" stroke="#fa8c16" stroke-width="2"/>
+  
+  <!-- Camada 2 - Use Cases -->
+  <circle cx="450" cy="300" r="180" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  
+  <!-- Camada 3 - Interface Adapters -->
+  <circle cx="450" cy="300" r="130" fill="#f6ffed" stroke="#52c41a" stroke-width="2"/>
+  
+  <!-- Camada 4 - Frameworks & Drivers -->
+  <circle cx="450" cy="300" r="80" fill="#f9f0ff" stroke="#722ed1" stroke-width="2"/>
+  
+  <!-- Textos das Camadas -->
+  <text x="450" y="130" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#ad6800">Entities (Domain)</text>
+  <text x="450" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#ad6800">Núcleo do negócio, regras e entidades</text>
+  
+  <text x="450" y="195" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#0050b3">Use Cases (Application)</text>
+  <text x="450" y="215" font-family="Arial" font-size="14" text-anchor="middle" fill="#0050b3">Fluxos e regras de aplicação</text>
+  
+  <text x="450" y="255" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#135200">Interface Adapters</text>
+  <text x="450" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="#135200">Adaptadores para interfaces externas</text>
+  
+  <text x="450" y="310" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#391085">Frameworks & Drivers</text>
+  <text x="450" y="330" font-family="Arial" font-size="14" text-anchor="middle" fill="#391085">Ferramentas e frameworks externos</text>
+  
+  <!-- Componentes específicos -->
+  <!-- Entities -->
+  <rect x="390" y="350" width="120" height="30" rx="5" fill="#fa8c16" stroke="#ad6800" stroke-width="1"/>
+  <text x="450" y="370" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Entities</text>
+  
+  <rect x="390" y="385" width="120" height="30" rx="5" fill="#fa8c16" stroke="#ad6800" stroke-width="1"/>
+  <text x="450" y="405" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Value Objects</text>
+  
+  <rect x="390" y="420" width="120" height="30" rx="5" fill="#fa8c16" stroke="#ad6800" stroke-width="1"/>
+  <text x="450" y="440" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Domain Events</text>
+  
+  <!-- Use Cases -->
+  <rect x="255" y="275" width="120" height="30" rx="5" fill="#1890ff" stroke="#0050b3" stroke-width="1"/>
+  <text x="315" y="295" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Use Cases</text>
+  
+  <rect x="255" y="310" width="120" height="30" rx="5" fill="#1890ff" stroke="#0050b3" stroke-width="1"/>
+  <text x="315" y="330" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Services</text>
+  
+  <rect x="255" y="345" width="120" height="30" rx="5" fill="#1890ff" stroke="#0050b3" stroke-width="1"/>
+  <text x="315" y="365" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Repository Interfaces</text>
+  
+  <!-- Interface Adapters -->
+  <rect x="525" y="275" width="120" height="30" rx="5" fill="#52c41a" stroke="#135200" stroke-width="1"/>
+  <text x="585" y="295" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Controllers</text>
+  
+  <rect x="525" y="310" width="120" height="30" rx="5" fill="#52c41a" stroke="#135200" stroke-width="1"/>
+  <text x="585" y="330" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Presenters</text>
+  
+  <rect x="525" y="345" width="120" height="30" rx="5" fill="#52c41a" stroke="#135200" stroke-width="1"/>
+  <text x="585" y="365" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Gateway Interfaces</text>
+  
+  <!-- Frameworks & Drivers -->
+  <rect x="390" y="200" width="120" height="30" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="450" y="220" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">UI</text>
+  
+  <rect x="320" y="235" width="120" height="30" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="380" y="255" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Database</text>
+  
+  <rect x="460" y="235" width="120" height="30" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="520" y="255" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">External Services</text>
+  
+  <!-- Princípios e Explicação -->
+  <rect x="50" y="480" width="800" height="100" rx="8" fill="#fff" stroke="#d9d9d9" stroke-width="1"/>
+  <text x="65" y="505" font-family="Arial" font-size="16" font-weight="bold" fill="#111">Princípios da Clean Architecture:</text>
+  <text x="65" y="530" font-family="Arial" font-size="14" fill="#333">1. Independência de Frameworks: O domínio não depende de nenhuma biblioteca ou framework externo</text>
+  <text x="65" y="550" font-family="Arial" font-size="14" fill="#333">2. Testabilidade: As regras de negócio podem ser testadas sem UI, banco de dados ou qualquer elemento externo</text>
+  <text x="65" y="570" font-family="Arial" font-size="14" fill="#333">3. Dependências apontam para dentro: Camadas externas dependem das internas, nunca o contrário</text>
+  
+  <!-- Setas de Dependência -->
+  <path d="M280 440 C250 430, 220 410, 220 370 C220 330, 250 290, 350 270" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <text x="200" y="390" font-family="Arial" font-size="12" font-style="italic" fill="#333">Regra de Dependência</text>
+  <text x="200" y="405" font-family="Arial" font-size="12" font-style="italic" fill="#333">(Inward Direction)</text>
+  
+  <!-- Definição de Setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

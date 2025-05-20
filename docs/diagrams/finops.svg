@@ -1,0 +1,44 @@
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="600" height="300" fill="#f0f5ff" rx="10" />
+  
+  <!-- Título -->
+  <text x="300" y="30" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#0050b3">
+    Dashboard de Economia - FinOps
+  </text>
+  
+  <!-- Gráfico de Barras - Economia por Categoria -->
+  <rect x="50" y="70" width="40" height="180" fill="#1890ff" />
+  <rect x="110" y="130" width="40" height="120" fill="#52c41a" />
+  <rect x="170" y="100" width="40" height="150" fill="#fa8c16" />
+  <rect x="230" y="150" width="40" height="100" fill="#722ed1" />
+  
+  <!-- Eixos -->
+  <line x1="30" y1="250" x2="290" y2="250" stroke="#333" stroke-width="2" />
+  <line x1="30" y1="70" x2="30" y2="250" stroke="#333" stroke-width="2" />
+  
+  <!-- Rótulos -->
+  <text x="70" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Manutenção</text>
+  <text x="130" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Energia</text>
+  <text x="190" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Downtime</text>
+  <text x="250" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">Infraestrutura</text>
+  
+  <!-- Gráfico de Linha - ROI -->
+  <path d="M350 250 L380 230 L410 200 L440 180 L470 150 L500 130 L530 90" fill="none" stroke="#f5222d" stroke-width="3" />
+  
+  <!-- Pontos no Gráfico de Linha -->
+  <circle cx="350" cy="250" r="5" fill="#f5222d" />
+  <circle cx="380" cy="230" r="5" fill="#f5222d" />
+  <circle cx="410" cy="200" r="5" fill="#f5222d" />
+  <circle cx="440" cy="180" r="5" fill="#f5222d" />
+  <circle cx="470" cy="150" r="5" fill="#f5222d" />
+  <circle cx="500" cy="130" r="5" fill="#f5222d" />
+  <circle cx="530" cy="90" r="5" fill="#f5222d" />
+  
+  <!-- Eixos para o Gráfico de Linha -->
+  <line x1="330" y1="250" x2="550" y2="250" stroke="#333" stroke-width="2" />
+  <line x1="330" y1="70" x2="330" y2="250" stroke="#333" stroke-width="2" />
+  
+  <!-- Rótulos para o Gráfico de Linha -->
+  <text x="440" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#333">ROI ao Longo do Tempo (meses)</text>
+</svg>

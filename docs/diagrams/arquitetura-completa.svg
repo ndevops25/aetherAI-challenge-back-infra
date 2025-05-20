@@ -1,0 +1,164 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="1000" height="700" fill="#f0f2f5" />
+  
+  <!-- Título -->
+  <text x="500" y="40" font-family="Arial" font-size="30" font-weight="bold" text-anchor="middle" fill="#111">
+    Arquitetura do Sistema de Manutenção Preditiva
+  </text>
+  
+  <!-- Camada Física - IoT -->
+  <rect x="50" y="80" width="900" height="120" rx="10" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="100" y="110" font-family="Arial" font-size="18" font-weight="bold" fill="#1890ff">Camada Física - IoT</text>
+  
+  <!-- Raspberry Pi -->
+  <circle cx="150" cy="140" r="30" fill="#f5222d" />
+  <text x="150" y="145" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Raspberry Pi</text>
+  
+  <!-- Sensores -->
+  <rect x="220" y="110" width="300" height="60" rx="5" fill="#52c41a" stroke="#135200" stroke-width="1"/>
+  <text x="370" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Sensores IoT</text>
+  <text x="280" y="160" font-family="Arial" font-size="10" fill="white">Temperatura</text>
+  <text x="340" y="160" font-family="Arial" font-size="10" fill="white">Vibração</text>
+  <text x="400" y="160" font-family="Arial" font-size="10" fill="white">Corrente</text>
+  <text x="460" y="160" font-family="Arial" font-size="10" fill="white">Acústico</text>
+  
+  <!-- Equipamentos Industriais -->
+  <rect x="580" y="110" width="120" height="60" rx="5" fill="#faad14" stroke="#874d00" stroke-width="1"/>
+  <text x="640" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Equipamentos</text>
+  
+  <!-- Gateway IoT -->
+  <circle cx="780" cy="140" r="30" fill="#722ed1" />
+  <text x="780" y="145" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Gateway IoT</text>
+  
+  <!-- Edge Computing -->
+  <circle cx="880" cy="140" r="30" fill="#13c2c2" />
+  <text x="880" y="145" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">Edge Computing</text>
+  
+  <!-- Setas de conexão -->
+  <line x1="180" y1="140" x2="220" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="520" y1="140" x2="580" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="700" y1="140" x2="750" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="810" y1="140" x2="850" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="880" y1="170" x2="880" y2="220" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Camada de Segurança - Fortinet -->
+  <rect x="50" y="220" width="900" height="120" rx="10" fill="#fff7e6" stroke="#fa8c16" stroke-width="2"/>
+  <text x="100" y="250" font-family="Arial" font-size="18" font-weight="bold" fill="#fa8c16">Camada de Segurança - Fortinet</text>
+  
+  <!-- FortiGate -->
+  <rect x="100" y="270" width="120" height="50" rx="5" fill="#fa8c16" stroke="#873800" stroke-width="1"/>
+  <text x="160" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">FortiGate</text>
+  
+  <!-- FortiManager -->
+  <rect x="240" y="270" width="120" height="50" rx="5" fill="#fa8c16" stroke="#873800" stroke-width="1"/>
+  <text x="300" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">FortiManager</text>
+  
+  <!-- FortiAnalyzer -->
+  <rect x="380" y="270" width="120" height="50" rx="5" fill="#fa8c16" stroke="#873800" stroke-width="1"/>
+  <text x="440" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">FortiAnalyzer</text>
+  
+  <!-- FortiWeb -->
+  <rect x="520" y="270" width="120" height="50" rx="5" fill="#fa8c16" stroke="#873800" stroke-width="1"/>
+  <text x="580" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">FortiWeb</text>
+  
+  <!-- FortiSOAR -->
+  <rect x="660" y="270" width="120" height="50" rx="5" fill="#fa8c16" stroke="#873800" stroke-width="1"/>
+  <text x="720" y="300" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">FortiSOAR</text>
+  
+  <!-- FortiAuthenticator -->
+  <rect x="800" y="270" width="120" height="50" rx="5" fill="#fa8c16" stroke="#873800" stroke-width="1"/>
+  <text x="860" y="300" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">FortiAuthenticator</text>
+  
+  <!-- Setas de conexão -->
+  <line x1="220" y1="295" x2="240" y2="295" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="295" x2="380" y2="295" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="295" x2="520" y2="295" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="640" y1="295" x2="660" y2="295" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="780" y1="295" x2="800" y2="295" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="320" x2="500" y2="360" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Oracle Cloud Infrastructure -->
+  <rect x="50" y="360" width="900" height="200" rx="10" fill="#f9f0ff" stroke="#722ed1" stroke-width="2"/>
+  <text x="100" y="390" font-family="Arial" font-size="18" font-weight="bold" fill="#722ed1">Oracle Cloud Infrastructure (OCI)</text>
+  
+  <!-- API Gateway -->
+  <rect x="100" y="410" width="120" height="50" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="160" y="440" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">API Gateway</text>
+  
+  <!-- OCI Functions -->
+  <rect x="240" y="410" width="120" height="50" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="300" y="440" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Functions</text>
+  
+  <!-- OKE -->
+  <rect x="380" y="410" width="240" height="50" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="500" y="430" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">OKE (Kubernetes)</text>
+  <text x="500" y="445" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Microserviços</text>
+  
+  <!-- Streaming -->
+  <rect x="640" y="410" width="120" height="50" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="700" y="440" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Streaming</text>
+  
+  <!-- Object Storage -->
+  <rect x="780" y="410" width="120" height="50" rx="5" fill="#722ed1" stroke="#391085" stroke-width="1"/>
+  <text x="840" y="440" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Object Storage</text>
+  
+  <!-- AI Services -->
+  <rect x="170" y="480" width="120" height="50" rx="5" fill="#2f54eb" stroke="#10239e" stroke-width="1"/>
+  <text x="230" y="510" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">AI Services</text>
+  
+  <!-- Autonomous DB -->
+  <rect x="310" y="480" width="120" height="50" rx="5" fill="#2f54eb" stroke="#10239e" stroke-width="1"/>
+  <text x="370" y="510" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Autonomous DB</text>
+  
+  <!-- Monitoring -->
+  <rect x="450" y="480" width="120" height="50" rx="5" fill="#2f54eb" stroke="#10239e" stroke-width="1"/>
+  <text x="510" y="510" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Monitoring</text>
+  
+  <!-- Notifications -->
+  <rect x="590" y="480" width="120" height="50" rx="5" fill="#2f54eb" stroke="#10239e" stroke-width="1"/>
+  <text x="650" y="510" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Notifications</text>
+  
+  <!-- Security -->
+  <rect x="730" y="480" width="120" height="50" rx="5" fill="#2f54eb" stroke="#10239e" stroke-width="1"/>
+  <text x="790" y="510" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Security Zones</text>
+  
+  <!-- Camada de DevSecOps -->
+  <rect x="50" y="580" width="900" height="100" rx="10" fill="#e6fffb" stroke="#13c2c2" stroke-width="2"/>
+  <text x="100" y="610" font-family="Arial" font-size="18" font-weight="bold" fill="#13c2c2">Camada de DevSecOps</text>
+  
+  <!-- Terraform -->
+  <rect x="100" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="150" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Terraform</text>
+  
+  <!-- GitHub -->
+  <rect x="220" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="270" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">GitHub</text>
+  
+  <!-- Jenkins -->
+  <rect x="340" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="390" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Jenkins</text>
+  
+  <!-- SonarQube -->
+  <rect x="460" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="510" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">SonarQube</text>
+  
+  <!-- Trivy -->
+  <rect x="580" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="630" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Trivy</text>
+  
+  <!-- Grafana -->
+  <rect x="700" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="750" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Grafana</text>
+  
+  <!-- Prometheus -->
+  <rect x="820" y="630" width="100" height="30" rx="5" fill="#13c2c2" stroke="#006d75" stroke-width="1"/>
+  <text x="870" y="650" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Prometheus</text>
+  
+  <!-- Definição de Setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

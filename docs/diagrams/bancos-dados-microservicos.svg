@@ -1,0 +1,100 @@
+<svg width="900" height="650" viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="650" fill="#f5f7fa" />
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#111">
+    Arquitetura de Dados e Persistência
+  </text>
+  
+  <!-- Autonomous Database Central -->
+  <ellipse cx="450" cy="150" rx="120" ry="60" fill="#13c2c2" stroke="#008272" stroke-width="2"/>
+  <text x="450" y="145" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">OCI Autonomous</text>
+  <text x="450" y="170" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Database</text>
+  
+  <!-- Microserviços e suas bases -->
+  <!-- Equipment Service -->
+  <rect x="80" y="280" width="160" height="60" rx="8" fill="#1890ff" stroke="#096dd9" stroke-width="2"/>
+  <text x="160" y="318" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Equipment Service</text>
+  
+  <rect x="80" y="350" width="160" height="100" rx="8" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="160" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#0050b3">Schema: EQUIPMENT</text>
+  <line x1="90" y1="380" x2="230" y2="380" stroke="#0050b3" stroke-width="1"/>
+  <text x="160" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Equipamentos</text>
+  <text x="160" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Modelos</text>
+  <text x="160" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Fabricantes</text>
+  
+  <!-- Sensor Service -->
+  <rect x="270" y="280" width="160" height="60" rx="8" fill="#1890ff" stroke="#096dd9" stroke-width="2"/>
+  <text x="350" y="318" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Sensor Service</text>
+  
+  <rect x="270" y="350" width="160" height="100" rx="8" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="350" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#0050b3">Schema: SENSOR</text>
+  <line x1="280" y1="380" x2="420" y2="380" stroke="#0050b3" stroke-width="1"/>
+  <text x="350" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Sensores</text>
+  <text x="350" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Tipos</text>
+  <text x="350" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Calibrações</text>
+  
+  <!-- Telemetry Service -->
+  <rect x="460" y="280" width="160" height="60" rx="8" fill="#1890ff" stroke="#096dd9" stroke-width="2"/>
+  <text x="540" y="318" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Telemetry Service</text>
+  
+  <rect x="460" y="350" width="160" height="100" rx="8" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="540" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#0050b3">Schema: TELEMETRY</text>
+  <line x1="470" y1="380" x2="610" y2="380" stroke="#0050b3" stroke-width="1"/>
+  <text x="540" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Leituras</text>
+  <text x="540" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Estatísticas</text>
+  <text x="540" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Agregações</text>
+  
+  <!-- Maintenance Service -->
+  <rect x="650" y="280" width="160" height="60" rx="8" fill="#1890ff" stroke="#096dd9" stroke-width="2"/>
+  <text x="730" y="318" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Maintenance Service</text>
+  
+  <rect x="650" y="350" width="160" height="100" rx="8" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="730" y="370" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#0050b3">Schema: MAINTENANCE</text>
+  <line x1="660" y1="380" x2="800" y2="380" stroke="#0050b3" stroke-width="1"/>
+  <text x="730" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Agendamentos</text>
+  <text x="730" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Histórico</text>
+  <text x="730" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Técnicos</text>
+  
+  <!-- AI Service -->
+  <rect x="175" y="500" width="160" height="60" rx="8" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="255" y="538" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">AI Service</text>
+  
+  <rect x="175" y="570" width="160" height="60" rx="8" fill="#f9f0ff" stroke="#722ed1" stroke-width="2"/>
+  <text x="255" y="595" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">MongoDB</text>
+  <text x="255" y="615" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Modelos de IA</text>
+  
+  <!-- Analytics Service -->
+  <rect x="365" y="500" width="160" height="60" rx="8" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="445" y="538" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Analytics Service</text>
+  
+  <rect x="365" y="570" width="160" height="60" rx="8" fill="#f9f0ff" stroke="#722ed1" stroke-width="2"/>
+  <text x="445" y="595" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">OCI Data Lake</text>
+  <text x="445" y="615" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Análises</text>
+  
+  <!-- Auth Service -->
+  <rect x="555" y="500" width="160" height="60" rx="8" fill="#fa8c16" stroke="#d46b08" stroke-width="2"/>
+  <text x="635" y="538" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Auth Service</text>
+  
+  <rect x="555" y="570" width="160" height="60" rx="8" fill="#fff7e6" stroke="#fa8c16" stroke-width="2"/>
+  <text x="635" y="595" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#d46b08">Schema: AUTH</text>
+  <text x="635" y="615" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">- Usuários e Permissões</text>
+  
+  <!-- Conexões -->
+  <line x1="160" y1="280" x2="430" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="350" y1="280" x2="435" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="540" y1="280" x2="470" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="730" y1="280" x2="490" y2="170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="255" y1="500" x2="435" y2="200" stroke="#333" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="445" y1="500" x2="445" y2="210" stroke="#333" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <line x1="635" y1="500" x2="465" y2="200" stroke="#333" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Definição de Setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

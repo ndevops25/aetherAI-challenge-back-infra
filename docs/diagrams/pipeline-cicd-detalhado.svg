@@ -1,0 +1,131 @@
+<svg width="900" height="700" viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="700" fill="#f0f5ff" />
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#111">
+    Pipeline de CI/CD com Integração de Segurança
+  </text>
+  
+  <!-- Etapas horizontais -->
+  <rect x="100" y="80" width="700" height="50" rx="8" fill="#1890ff" stroke="#096dd9" stroke-width="2"/>
+  <text x="450" y="110" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Fluxo de Desenvolvimento</text>
+  
+  <!-- Dev -->
+  <rect x="120" y="150" width="100" height="60" rx="8" fill="#b7eb8f" stroke="#52c41a" stroke-width="2"/>
+  <text x="170" y="185" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#237804">Commit</text>
+  
+  <!-- Jenkins -->
+  <rect x="250" y="150" width="100" height="60" rx="8" fill="#335061" stroke="#1d2c33" stroke-width="2"/>
+  <text x="300" y="185" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Jenkins</text>
+  
+  <!-- Stages -->
+  <rect x="380" y="150" width="290" height="60" rx="8" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="525" y="170" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">CI Pipeline Stages</text>
+  
+  <line x1="415" y1="180" x2="635" y2="180" stroke="#391085" stroke-width="1"/>
+  <text x="440" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#391085">Build</text>
+  <text x="480" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#391085">Test</text>
+  <text x="525" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#391085">Security</text>
+  <text x="570" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#391085">Quality</text>
+  <text x="610" y="195" font-family="Arial" font-size="10" text-anchor="middle" fill="#391085">Publish</text>
+  
+  <!-- Aprovação -->
+  <rect x="700" y="150" width="80" height="60" rx="8" fill="#ffd591" stroke="#fa8c16" stroke-width="2"/>
+  <text x="740" y="185" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ad6800">Deploy</text>
+  
+  <!-- Análise de Código -->
+  <rect x="100" y="250" width="700" height="50" rx="8" fill="#fa8c16" stroke="#ad6800" stroke-width="2"/>
+  <text x="450" y="280" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Análise de Segurança Integrada</text>
+  
+  <!-- Ferramentas de Segurança -->
+  <rect x="120" y="320" width="100" height="60" rx="8" fill="#ffd6e7" stroke="#eb2f96" stroke-width="2"/>
+  <text x="170" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#c41d7f">SonarQube</text>
+  <text x="170" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#c41d7f">SAST</text>
+  
+  <rect x="240" y="320" width="100" height="60" rx="8" fill="#ffd6e7" stroke="#eb2f96" stroke-width="2"/>
+  <text x="290" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#c41d7f">FortiDevSec</text>
+  <text x="290" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#c41d7f">SAST</text>
+  
+  <rect x="360" y="320" width="100" height="60" rx="8" fill="#ffd6e7" stroke="#eb2f96" stroke-width="2"/>
+  <text x="410" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#c41d7f">Trivy</text>
+  <text x="410" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#c41d7f">Container Scan</text>
+  
+  <rect x="480" y="320" width="100" height="60" rx="8" fill="#ffd6e7" stroke="#eb2f96" stroke-width="2"/>
+  <text x="530" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#c41d7f">OWASP ZAP</text>
+  <text x="530" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#c41d7f">DAST</text>
+  
+  <rect x="600" y="320" width="100" height="60" rx="8" fill="#ffd6e7" stroke="#eb2f96" stroke-width="2"/>
+  <text x="650" y="345" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#c41d7f">Dependency</text>
+  <text x="650" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#c41d7f">Check</text>
+  
+  <!-- Quality Gates -->
+  <rect x="100" y="400" width="700" height="50" rx="8" fill="#13c2c2" stroke="#006d75" stroke-width="2"/>
+  <text x="450" y="430" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Quality Gates</text>
+  
+  <!-- Quality Gates Details -->
+  <rect x="120" y="470" width="150" height="80" rx="8" fill="#e6fffb" stroke="#13c2c2" stroke-width="2"/>
+  <text x="195" y="495" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006d75">Code Coverage</text>
+  <text x="195" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">≥ 85%</text>
+  <text x="195" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Unit Tests</text>
+  
+  <rect x="290" y="470" width="150" height="80" rx="8" fill="#e6fffb" stroke="#13c2c2" stroke-width="2"/>
+  <text x="365" y="495" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006d75">Vulnerabilities</text>
+  <text x="365" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">0 Critical</text>
+  <text x="365" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">0 High</text>
+  
+  <rect x="460" y="470" width="150" height="80" rx="8" fill="#e6fffb" stroke="#13c2c2" stroke-width="2"/>
+  <text x="535" y="495" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006d75">Code Quality</text>
+  <text x="535" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">≤ 5% Duplicação</text>
+  <text x="535" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">≤ 15 Complexidade</text>
+  
+  <rect x="630" y="470" width="150" height="80" rx="8" fill="#e6fffb" stroke="#13c2c2" stroke-width="2"/>
+  <text x="705" y="495" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006d75">Build</text>
+  <text x="705" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">0 Erros</text>
+  <text x="705" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Pipeline Completo</text>
+  
+  <!-- Environments -->
+  <rect x="100" y="570" width="700" height="50" rx="8" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="450" y="600" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Ambientes de Implantação</text>
+  
+  <!-- Environments -->
+  <rect x="120" y="640" width="160" height="40" rx="8" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="200" y="665" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">Development</text>
+  
+  <rect x="300" y="640" width="160" height="40" rx="8" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="380" y="665" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">Staging</text>
+  
+  <rect x="480" y="640" width="160" height="40" rx="8" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="560" y="665" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">Production</text>
+  
+  <rect x="660" y="640" width="120" height="40" rx="8" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="720" y="665" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#391085">Disaster Recovery</text>
+  
+  <!-- Conexões -->
+  <line x1="220" y1="180" x2="250" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="350" y1="180" x2="380" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="670" y1="180" x2="700" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="170" y1="320" x2="170" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="290" y1="320" x2="290" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="410" y1="320" x2="410" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="530" y1="320" x2="530" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="650" y1="320" x2="650" y2="250" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="195" y1="470" x2="195" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="365" y1="470" x2="365" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="535" y1="470" x2="535" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="705" y1="470" x2="705" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <line x1="200" y1="640" x2="200" y2="620" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="380" y1="640" x2="380" y2="620" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="560" y1="640" x2="560" y2="620" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="720" y1="640" x2="720" y2="620" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Definição de Setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

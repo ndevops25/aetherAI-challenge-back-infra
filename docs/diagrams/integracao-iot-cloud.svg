@@ -1,0 +1,204 @@
+<svg width="1000" height="700" viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="1000" height="700" fill="#f5f7fa" />
+  
+  <!-- Título -->
+  <text x="500" y="40" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#111">
+    Integração Detalhada IoT-Cloud
+  </text>
+  
+  <!-- Seção IoT (lado esquerdo) -->
+  <rect x="50" y="80" width="320" height="570" rx="10" fill="#e6f7ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="210" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#0050b3">Camada IoT (Edge)</text>
+  
+  <!-- Raspberry Pi -->
+  <rect x="90" y="140" width="240" height="140" rx="8" fill="#f5222d" stroke="#a8071a" stroke-width="2"/>
+  <text x="210" y="165" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Raspberry Pi</text>
+  
+  <!-- Detalhes do Raspberry Pi -->
+  <rect x="110" y="180" width="90" height="40" rx="5" fill="#ff7875" stroke="#f5222d" stroke-width="1"/>
+  <text x="155" y="205" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Driver Sensores</text>
+  
+  <rect x="220" y="180" width="90" height="40" rx="5" fill="#ff7875" stroke="#f5222d" stroke-width="1"/>
+  <text x="265" y="205" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Processamento</text>
+  
+  <rect x="110" y="230" width="90" height="40" rx="5" fill="#ff7875" stroke="#f5222d" stroke-width="1"/>
+  <text x="155" y="255" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">MQTT Client</text>
+  
+  <rect x="220" y="230" width="90" height="40" rx="5" fill="#ff7875" stroke="#f5222d" stroke-width="1"/>
+  <text x="265" y="255" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">TLS/Security</text>
+  
+  <!-- Sensores -->
+  <rect x="90" y="300" width="100" height="160" rx="8" fill="#52c41a" stroke="#237804" stroke-width="2"/>
+  <text x="140" y="325" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Sensores</text>
+  
+  <line x1="140" y1="335" x2="140" y2="440" stroke="white" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <circle cx="140" cy="350" r="10" fill="#b7eb8f"/>
+  <text x="140" y="353" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#237804">T</text>
+  <text x="160" y="353" font-family="Arial" font-size="10" text-anchor="start" fill="white">Temperatura</text>
+  
+  <circle cx="140" cy="380" r="10" fill="#b7eb8f"/>
+  <text x="140" y="383" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#237804">V</text>
+  <text x="160" y="383" font-family="Arial" font-size="10" text-anchor="start" fill="white">Vibração</text>
+  
+  <circle cx="140" cy="410" r="10" fill="#b7eb8f"/>
+  <text x="140" y="413" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#237804">C</text>
+  <text x="160" y="413" font-family="Arial" font-size="10" text-anchor="start" fill="white">Corrente</text>
+  
+  <circle cx="140" cy="440" r="10" fill="#b7eb8f"/>
+  <text x="140" y="443" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#237804">A</text>
+  <text x="160" y="443" font-family="Arial" font-size="10" text-anchor="start" fill="white">Acústico</text>
+  
+  <!-- Equipamentos -->
+  <rect x="210" y="300" width="120" height="160" rx="8" fill="#faad14" stroke="#874d00" stroke-width="2"/>
+  <text x="270" y="325" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Equipamentos</text>
+  
+  <line x1="270" y1="335" x2="270" y2="440" stroke="white" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <rect x="230" y="350" width="80" height="25" rx="5" fill="#ffd591" stroke="#faad14" stroke-width="1"/>
+  <text x="270" y="367" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#874d00">Bomba</text>
+  
+  <rect x="230" y="385" width="80" height="25" rx="5" fill="#ffd591" stroke="#faad14" stroke-width="1"/>
+  <text x="270" y="402" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#874d00">Motor</text>
+  
+  <rect x="230" y="420" width="80" height="25" rx="5" fill="#ffd591" stroke="#faad14" stroke-width="1"/>
+  <text x="270" y="437" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#874d00">Tanque</text>
+  
+  <!-- Segurança Local -->
+  <rect x="90" y="480" width="240" height="70" rx="8" fill="#ffccc7" stroke="#f5222d" stroke-width="2"/>
+  <text x="210" y="510" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#a8071a">Segurança Edge</text>
+  <text x="210" y="530" font-family="Arial" font-size="10" text-anchor="middle" fill="#a8071a">Certificados, Criptografia, Autenticação</text>
+  
+  <!-- Edge Gateway -->
+  <rect x="90" y="570" width="240" height="60" rx="8" fill="#13c2c2" stroke="#006d75" stroke-width="2"/>
+  <text x="210" y="600" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Edge Gateway</text>
+  <text x="210" y="620" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Agregação, Filtragem, Buffering</text>
+  
+  <!-- Zona de Transição -->
+  <rect x="400" y="80" width="160" height="570" rx="10" fill="#fff2e8" stroke="#fa8c16" stroke-width="2"/>
+  <text x="480" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#873800">Comunicação</text>
+  
+  <!-- MQTT/TLS -->
+  <rect x="430" y="170" width="100" height="60" rx="8" fill="#fa8c16" stroke="#873800" stroke-width="2"/>
+  <text x="480" y="195" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">MQTT</text>
+  <text x="480" y="215" font-family="Arial" font-size="10" text-anchor="middle" fill="white">TLS 1.3</text>
+  
+  <!-- Fortinet Security -->
+  <rect x="430" y="280" width="100" height="180" rx="8" fill="#fa8c16" stroke="#873800" stroke-width="2"/>
+  <text x="480" y="305" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">FortiGate</text>
+  
+  <line x1="480" y1="315" x2="480" y2="440" stroke="white" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <circle cx="480" cy="335" r="12" fill="#ffd591"/>
+  <text x="480" y="338" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#873800">FW</text>
+  
+  <circle cx="480" cy="375" r="12" fill="#ffd591"/>
+  <text x="480" y="378" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#873800">IPS</text>
+  
+  <circle cx="480" cy="415" r="12" fill="#ffd591"/>
+  <text x="480" y="418" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#873800">DPI</text>
+  
+  <!-- API Gateway -->
+  <rect x="430" y="500" width="100" height="60" rx="8" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="480" y="525" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">API Gateway</text>
+  <text x="480" y="545" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Autenticação, Throttling</text>
+  
+  <!-- Seção Cloud (lado direito) -->
+  <rect x="590" y="80" width="360" height="570" rx="10" fill="#f9f0ff" stroke="#722ed1" stroke-width="2"/>
+  <text x="770" y="110" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#531dab">Serviços OCI Cloud</text>
+  
+  <!-- Ingestão -->
+  <rect x="630" y="140" width="280" height="80" rx="8" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="770" y="170" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Serviços de Ingestão</text>
+  
+  <rect x="650" y="180" width="100" height="30" rx="5" fill="#d3adf7" stroke="#722ed1" stroke-width="1"/>
+  <text x="700" y="200" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#391085">OCI Streaming</text>
+  
+  <rect x="790" y="180" width="100" height="30" rx="5" fill="#d3adf7" stroke="#722ed1" stroke-width="1"/>
+  <text x="840" y="200" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#391085">IoT Hub</text>
+  
+  <!-- Processamento -->
+  <rect x="630" y="240" width="280" height="140" rx="8" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="770" y="270" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Processamento de Dados</text>
+  
+  <rect x="650" y="280" width="100" height="40" rx="5" fill="#d3adf7" stroke="#722ed1" stroke-width="1"/>
+  <text x="700" y="305" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#391085">OCI Functions</text>
+  
+  <rect x="790" y="280" width="100" height="40" rx="5" fill="#d3adf7" stroke="#722ed1" stroke-width="1"/>
+  <text x="840" y="305" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#391085">Kubernetes</text>
+  
+  <rect x="720" y="330" width="100" height="40" rx="5" fill="#d3adf7" stroke="#722ed1" stroke-width="1"/>
+  <text x="770" y="355" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#391085">Microserviços</text>
+  
+  <!-- Armazenamento -->
+  <rect x="630" y="400" width="280" height="80" rx="8" fill="#2f54eb" stroke="#10239e" stroke-width="2"/>
+  <text x="770" y="430" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Armazenamento</text>
+  
+  <rect x="650" y="440" width="100" height="30" rx="5" fill="#adc6ff" stroke="#2f54eb" stroke-width="1"/>
+  <text x="700" y="460" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#10239e">Autonomous DB</text>
+  
+  <rect x="790" y="440" width="100" height="30" rx="5" fill="#adc6ff" stroke="#2f54eb" stroke-width="1"/>
+  <text x="840" y="460" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#10239e">Object Storage</text>
+  
+  <!-- IA & Analytics -->
+  <rect x="630" y="500" width="280" height="80" rx="8" fill="#2f54eb" stroke="#10239e" stroke-width="2"/>
+  <text x="770" y="530" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">IA & Analytics</text>
+  
+  <rect x="650" y="540" width="100" height="30" rx="5" fill="#adc6ff" stroke="#2f54eb" stroke-width="1"/>
+  <text x="700" y="560" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#10239e">AI Services</text>
+  
+  <rect x="790" y="540" width="100" height="30" rx="5" fill="#adc6ff" stroke="#2f54eb" stroke-width="1"/>
+  <text x="840" y="560" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#10239e">OCI DataScience</text>
+  
+  <!-- Notifications & Alerts -->
+  <rect x="630" y="600" width="280" height="40" rx="8" fill="#eb2f96" stroke="#c41d7f" stroke-width="2"/>
+  <text x="770" y="625" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Notificações & Alertas</text>
+  
+  <!-- Fluxos de conexão - IoT para Transição -->
+  <line x1="330" y1="200" x2="430" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="380" y="185" font-family="Arial" font-size="10" fill="#333">Dados Telemetria</text>
+  
+  <line x1="330" y1="370" x2="430" y2="370" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="380" y="355" font-family="Arial" font-size="10" fill="#333">Tráfego Inspecionado</text>
+  
+  <line x1="330" y1="530" x2="430" y2="530" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="380" y="515" font-family="Arial" font-size="10" fill="#333">API Requests</text>
+  
+  <!-- Conexões Verticais entre IoT -->
+  <line x1="210" y1="280" x2="210" y2="300" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="140" y1="460" x2="140" y2="480" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="270" y1="460" x2="270" y2="480" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="210" y1="550" x2="210" y2="570" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Conexões Verticais em Comunicação -->
+  <line x1="480" y1="230" x2="480" y2="280" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="480" y1="460" x2="480" y2="500" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Conexões Transição para Cloud -->
+  <line x1="530" y1="200" x2="630" y2="180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="575" y="175" font-family="Arial" font-size="10" fill="#333">Streaming</text>
+  
+  <line x1="530" y1="370" x2="630" y2="320" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="575" y="330" font-family="Arial" font-size="10" fill="#333">Processamento</text>
+  
+  <line x1="530" y1="530" x2="630" y2="530" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="575" y="515" font-family="Arial" font-size="10" fill="#333">APIs</text>
+  
+  <!-- Conexões Verticais em Cloud -->
+  <line x1="770" y1="220" x2="770" y2="240" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="770" y1="380" x2="770" y2="400" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="770" y1="480" x2="770" y2="500" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="770" y1="580" x2="770" y2="600" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Fluxo bidirecional para comandos -->
+  <path d="M630 350 Q 530 350, 530 450 Q 530 500, 430 500" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+  <text x="520" y="450" font-family="Arial" font-size="10" fill="#333" transform="rotate(-90, 520, 450)">Comandos</text>
+  
+  <!-- Definição de Setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,72 @@
+<svg width="900" height="600" viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="900" height="600" fill="#f5f7fa" />
+  
+  <!-- Título -->
+  <text x="450" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#111">
+    Arquitetura de Segurança em Camadas
+  </text>
+  
+  <!-- Container Principal -->
+  <rect x="50" y="80" width="800" height="500" rx="10" fill="#f9f0ff" stroke="#722ed1" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Camada 1 - Perimetral -->
+  <rect x="100" y="120" width="700" height="80" rx="8" fill="#ff7875" stroke="#f5222d" stroke-width="2"/>
+  <text x="450" y="165" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">1. Segurança Perimetral</text>
+  <text x="180" y="190" font-family="Arial" font-size="14" text-anchor="start" fill="#a8071a">• FortiGate NGFW</text>
+  <text x="400" y="190" font-family="Arial" font-size="14" text-anchor="start" fill="#a8071a">• OCI Security Lists</text>
+  <text x="620" y="190" font-family="Arial" font-size="14" text-anchor="start" fill="#a8071a">• OCI Web Application Firewall</text>
+  
+  <!-- Camada 2 - Rede -->
+  <rect x="100" y="210" width="700" height="80" rx="8" fill="#ffd591" stroke="#fa8c16" stroke-width="2"/>
+  <text x="450" y="255" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">2. Segurança de Rede</text>
+  <text x="180" y="280" font-family="Arial" font-size="14" text-anchor="start" fill="#ad6800">• Micro-segmentação</text>
+  <text x="400" y="280" font-family="Arial" font-size="14" text-anchor="start" fill="#ad6800">• VCN Security Groups</text>
+  <text x="620" y="280" font-family="Arial" font-size="14" text-anchor="start" fill="#ad6800">• HTTPS/TLS Enforcement</text>
+  
+  <!-- Camada 3 - Aplicação -->
+  <rect x="100" y="300" width="700" height="80" rx="8" fill="#b7eb8f" stroke="#52c41a" stroke-width="2"/>
+  <text x="450" y="345" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">3. Segurança de Aplicação</text>
+  <text x="180" y="370" font-family="Arial" font-size="14" text-anchor="start" fill="#135200">• FortiWeb WAF</text>
+  <text x="400" y="370" font-family="Arial" font-size="14" text-anchor="start" fill="#135200">• API Gateway Security</text>
+  <text x="620" y="370" font-family="Arial" font-size="14" text-anchor="start" fill="#135200">• Input Validation</text>
+  
+  <!-- Camada 4 - Dados -->
+  <rect x="100" y="390" width="700" height="80" rx="8" fill="#91d5ff" stroke="#1890ff" stroke-width="2"/>
+  <text x="450" y="435" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">4. Segurança de Dados</text>
+  <text x="180" y="460" font-family="Arial" font-size="14" text-anchor="start" fill="#0050b3">• Encryption at Rest</text>
+  <text x="400" y="460" font-family="Arial" font-size="14" text-anchor="start" fill="#0050b3">• OCI Vault</text>
+  <text x="620" y="460" font-family="Arial" font-size="14" text-anchor="start" fill="#0050b3">• Data Masking</text>
+  
+  <!-- Camada 5 - Monitoramento -->
+  <rect x="100" y="480" width="700" height="80" rx="8" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="450" y="525" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="white">5. Monitoramento e Resposta</text>
+  <text x="180" y="550" font-family="Arial" font-size="14" text-anchor="start" fill="#391085">• FortiAnalyzer</text>
+  <text x="400" y="550" font-family="Arial" font-size="14" text-anchor="start" fill="#391085">• FortiSOAR</text>
+  <text x="620" y="550" font-family="Arial" font-size="14" text-anchor="start" fill="#391085">• OCI Cloud Guard</text>
+  
+  <!-- Ícone Cadeado -->
+  <circle cx="65" cy="165" r="15" fill="none" stroke="#f5222d" stroke-width="2"/>
+  <rect x="60" y="153" width="10" height="15" rx="2" fill="#f5222d"/>
+  <rect x="57.5" y="168" width="15" height="7" rx="2" fill="#f5222d"/>
+  
+  <!-- Ícone Shield -->
+  <path d="M65 255 L50 235 L80 235 Z" fill="none" stroke="#fa8c16" stroke-width="2"/>
+  <path d="M65 275 L65 235" fill="none" stroke="#fa8c16" stroke-width="2"/>
+  <path d="M55 245 L75 245" fill="none" stroke="#fa8c16" stroke-width="2"/>
+  
+  <!-- Ícone App -->
+  <rect x="50" y="335" width="30" height="30" rx="5" fill="none" stroke="#52c41a" stroke-width="2"/>
+  <path d="M55 345 L75 345 M55 350 L75 350 M55 355 L75 355" fill="none" stroke="#52c41a" stroke-width="2"/>
+  
+  <!-- Ícone Database -->
+  <ellipse cx="65" cy="413" rx="15" ry="8" fill="none" stroke="#1890ff" stroke-width="2"/>
+  <path d="M50 413 L50 447 C50 453 80 453 80 447 L80 413" fill="none" stroke="#1890ff" stroke-width="2"/>
+  <ellipse cx="65" cy="447" rx="15" ry="8" fill="none" stroke="#1890ff" stroke-width="2"/>
+  
+  <!-- Ícone Monitor -->
+  <rect x="50" y="510" width="30" height="25" rx="2" fill="none" stroke="#722ed1" stroke-width="2"/>
+  <line x1="60" y1="535" x2="70" y2="535" stroke="#722ed1" stroke-width="2"/>
+  <line x1="65" y1="535" x2="65" y2="540" stroke="#722ed1" stroke-width="2"/>
+  <line x1="55" y1="540" x2="75" y2="540" stroke="#722ed1" stroke-width="2"/>
+</svg>

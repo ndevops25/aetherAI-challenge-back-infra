@@ -1,0 +1,93 @@
+<svg width="1000" height="600" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fundo -->
+  <rect width="1000" height="600" fill="#f6f8fa" />
+  
+  <!-- Título -->
+  <text x="500" y="40" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#111">
+    Fluxo de Dados e Processamento
+  </text>
+  
+  <!-- 1. Sensores e Equipamentos -->
+  <circle cx="150" cy="150" r="40" fill="#ffd591" stroke="#fa8c16" stroke-width="2"/>
+  <text x="150" y="155" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#873800">Equipamentos</text>
+  
+  <rect x="250" y="110" width="100" height="80" rx="10" fill="#b7eb8f" stroke="#52c41a" stroke-width="2"/>
+  <text x="300" y="155" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#135200">Sensores</text>
+  
+  <path d="M190 150 L250 150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="220" y="140" font-family="Arial" font-size="10" fill="#333">1. Coleta</text>
+  
+  <!-- 2. Raspberry Pi -->
+  <rect x="400" y="110" width="100" height="80" rx="10" fill="#f5222d" stroke="#a8071a" stroke-width="2"/>
+  <text x="450" y="155" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Raspberry Pi</text>
+  
+  <path d="M350 150 L400 150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="375" y="140" font-family="Arial" font-size="10" fill="#333">2. Processamento</text>
+  
+  <!-- 3. Gateway IoT -->
+  <circle cx="600" cy="150" r="40" fill="#722ed1" stroke="#391085" stroke-width="2"/>
+  <text x="600" y="155" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Gateway IoT</text>
+  
+  <path d="M500 150 L560 150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="530" y="140" font-family="Arial" font-size="10" fill="#333">3. MQTT</text>
+  
+  <!-- 4. Fortinet Security -->
+  <rect x="100" y="230" width="800" height="60" rx="10" fill="#fff7e6" stroke="#fa8c16" stroke-width="2"/>
+  <text x="500" y="270" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#fa8c16">4. Camada de Segurança Fortinet</text>
+  
+  <path d="M600 190 L600 230" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 5. OCI Streaming -->
+  <rect x="400" y="330" width="200" height="60" rx="10" fill="#d3adf7" stroke="#722ed1" stroke-width="2"/>
+  <text x="500" y="370" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#391085">5. OCI Streaming</text>
+  
+  <path d="M500 290 L500 330" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 6. Functions -->
+  <rect x="100" y="430" width="150" height="60" rx="10" fill="#91caff" stroke="#1677ff" stroke-width="2"/>
+  <text x="175" y="470" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#003eb3">6. Functions</text>
+  
+  <path d="M400 360 L175 430" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="250" y="400" font-family="Arial" font-size="10" fill="#333">Detecção de Anomalias</text>
+  
+  <!-- 7. Autonomous DB -->
+  <rect x="325" y="430" width="150" height="60" rx="10" fill="#87e8de" stroke="#13c2c2" stroke-width="2"/>
+  <text x="400" y="455" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#006d75">7. Autonomous DB</text>
+  <text x="400" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="#006d75">Armazenamento</text>
+  
+  <path d="M500 390 L400 430" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="450" y="410" font-family="Arial" font-size="10" fill="#333">Persistência</text>
+  
+  <!-- 8. AI Service -->
+  <rect x="550" y="430" width="150" height="60" rx="10" fill="#ff9c6e" stroke="#fa541c" stroke-width="2"/>
+  <text x="625" y="455" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ad2102">8. AI Service</text>
+  <text x="625" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="#ad2102">Previsão de Falhas</text>
+  
+  <path d="M600 390 L625 430" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="615" y="410" font-family="Arial" font-size="10" fill="#333">Análise</text>
+  
+  <path d="M475 460 L550 460" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="510" y="450" font-family="Arial" font-size="10" fill="#333">Dados Históricos</text>
+  
+  <!-- 9. Notificações -->
+  <rect x="775" y="430" width="150" height="60" rx="10" fill="#ffe58f" stroke="#faad14" stroke-width="2"/>
+  <text x="850" y="460" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ad6800">9. Notificações</text>
+  
+  <path d="M700 460 L775 460" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="735" y="450" font-family="Arial" font-size="10" fill="#333">Alertas</text>
+  
+  <!-- 10. Equipe de Manutenção -->
+  <circle cx="850" cy="550" r="40" fill="#ffadd2" stroke="#eb2f96" stroke-width="2"/>
+  <text x="850" y="550" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#9e1068">10. Equipe</text>
+  <text x="850" y="570" font-family="Arial" font-size="12" text-anchor="middle" fill="#9e1068">Manutenção</text>
+  
+  <path d="M850 490 L850 510" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="865" y="500" font-family="Arial" font-size="10" fill="#333">Ordens de Serviço</text>
+  
+  <!-- Definição de Setas -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
